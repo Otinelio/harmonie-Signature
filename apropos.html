@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>À propos · Harmonie Signature</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOADING SCREEN -->
+<div id="loader">
+  <div class="loader-logo">
+    <div class="loader-harmonie">HARMONIE</div>
+    <div class="loader-signature">SIGNATURE</div>
+    <div class="loader-line"></div>
+  </div>
+</div>
+
+<!-- NAVIGATION -->
+<nav id="navbar">
+  <a href="index.html" class="nav-logo" aria-label="Harmonie Signature">
+    <img src="img/Logo.png" alt="Harmonie Signature">
+  </a>
+  <div class="nav-links">
+    <a href="index.html">Accueil</a>
+    <a href="activites.html">Activités</a>
+    <a href="restauration.html">Restauration</a>
+    <a href="spa.html">Spa & Wellness</a>
+    <a href="tarifs.html">Tarifs</a>
+    <a href="apropos.html" class="active">À propos</a>
+    <a href="reservation.html" class="btn-reserver">Réserver</a>
+  </div>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Accueil</a>
+  <a href="activites.html">Activités</a>
+  <a href="restauration.html">Restauration</a>
+  <a href="spa.html">Spa & Wellness</a>
+  <a href="tarifs.html">Tarifs</a>
+  <a href="apropos.html">À propos</a>
+  <a href="reservation.html">Réserver</a>
+</div>
+
+<!-- HERO -->
+<div class="page-hero">
+  <div class="page-hero-bg">
+    <img src="img/Capture d’écran du 2026-04-07 09-16-21.png" alt="Harmonie Signature" loading="eager">
+  </div>
+  <div class="page-hero-overlay"></div>
+  <div class="page-hero-content">
+    <div class="page-hero-label">À PROPOS</div>
+    <h1 class="page-hero-title">L’âme du <em>complexe</em></h1>
+  </div>
+</div>
+
+<!-- CONTENT -->
+<div class="content-section">
+  <div class="resto-layout">
+    <div class="resto-img">
+      <img src="img/Capture d’écran du 2026-04-07 09-11-50.png" alt="Ambiance Harmonie Signature" loading="lazy">
+    </div>
+    <div>
+      <div class="section-label">À PROPOS</div>
+      <h2 class="section-title">Une parenthèse à <em>Lomé</em></h2>
+      <p class="page-header-desc" style="max-width:680px;margin-top:18px">
+        Harmonie Signature est bien plus qu'un complexe de loisirs. Niché au cœur du quartier La Caisse / Résidence du Bénin à Lomé, c’est un lieu pensé pour vivre plusieurs expériences, dans un même espace.
+      </p>
+      <div style="margin-top:18px;color:var(--muted);font-size:15px;line-height:1.75">
+        <p style="margin-bottom:14px">
+          De la piscine aux eaux cristallines au bowling nocturne, du restaurant italien au spa apaisant, en passant par les terrains de tennis éclairés et l’espace enfants — chaque recoin vise une expérience complète, premium et authentiquement loméenne.
+        </p>
+        <p>
+          Ici, une famille peut nager, partager une pizza au feu de bois, regarder les enfants s’amuser, puis terminer la soirée dans la vapeur du spa et le son des quilles. C’est cette densité d’expériences qui fait la signature d’Harmonie.
+        </p>
+      </div>
+      <div style="margin-top:28px">
+        <a href="reservation.html" class="btn-gold">Réserver maintenant →</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="content-section" style="padding-top:0">
+  <div class="section-label">INFOS</div>
+  <h2 class="section-title">Nous <em>trouver</em></h2>
+
+  <div class="card-grid" style="margin-top:28px">
+    <div class="card">
+      <div class="card-icon">📍</div>
+      <div class="card-title">Adresse</div>
+      <div style="color:var(--muted);font-size:14px;line-height:1.7">
+        Rue 243 Tot Ancien BSL<br>
+        Résidence du Bénin, Lomé, Togo
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-icon">📞</div>
+      <div class="card-title">Téléphone / WhatsApp</div>
+      <div style="color:var(--muted);font-size:14px;line-height:1.7">
+        <a href="https://wa.me/22892921889" style="color:var(--text);opacity:0.9">(+228) 92 92 18 89</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-icon">🕐</div>
+      <div class="card-title">Horaires</div>
+      <div style="color:var(--muted);font-size:14px;line-height:1.7">
+        Lun – Sam : 07h00 – 23h00<br>
+        Dim : Fermé<br>
+        <span style="font-size:12px;opacity:0.9">Bowling : Mar – Dim : 16h00 – 00h00</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-top:24px;background:var(--bg2);border:1px solid var(--border);border-radius:12px;overflow:hidden">
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px;border-bottom:1px solid rgba(240,235,225,0.08)">
+      <div style="font-family:var(--font-display);font-size:20px;font-weight:400">Carte</div>
+      <a href="https://maps.google.com/?q=Harmonie+Signature+Lomé+Togo" target="_blank" class="btn-outline-gold" style="padding:10px 18px;font-size:13px">Ouvrir dans Maps ↗</a>
+    </div>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7!2d1.2253!3d6.1375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMDgnMTUuMCJOIDHCsDEzJzMxLjEiRQ!5e0!3m2!1sfr!2stg!4v1617000000000!5m2!1sfr!2stg"
+      title="Harmonie Signature sur la carte"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      style="width:100%;height:380px;border:0;display:block;filter:saturate(0.7) contrast(1.1)"
+    ></iframe>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-col">
+      <div class="footer-logo">
+        <img src="img/Logo.png" alt="Harmonie Signature">
+      </div>
+      <p class="footer-tagline">Détente complète à Lomé</p>
+      <div class="footer-socials">
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="Instagram">ig</a>
+        <a href="#" aria-label="Twitter">tw</a>
+        <a href="#" aria-label="TikTok">TikTok</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-title">NAVIGATION</div>
+      <a href="activites.html">Activités</a>
+      <a href="restauration.html">Restauration</a>
+      <a href="spa.html">Spa & Wellness</a>
+      <a href="reservation.html">Réservation</a>
+      <a href="tarifs.html">Tarifs</a>
+      <a href="apropos.html">À propos</a>
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-title">CONTACT</div>
+      <p>📍 Rue 243 Tot Ancien BSL, Résidence du Bénin, Lomé, Togo</p>
+      <p>📞 (+228) 92 92 18 89</p>
+      <p>🕐 Lun – Sam : 07h00 – 23h00 | Dim : Fermé</p>
+      <p style="font-size:12px;opacity:0.6">Bowling : Mar – Dim : 16h00 – 00h00</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Harmonie Signature · Tous droits réservés · Lomé, Togo</p>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/22892921889" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<!-- CURSOR -->
+<div class="custom-cursor" id="cursor"></div>
+
+<script src="main.js"></script>
+</body>
+</html>
